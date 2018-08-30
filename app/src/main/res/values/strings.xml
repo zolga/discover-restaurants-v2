@@ -1,0 +1,18 @@
+<resources>
+    <!--App -->
+    <string name="app_name">MyDoorDash</string>
+
+    <!--Error And Messages -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="msg_no_restaurants">:( No Restaurants were found near you..Please try later</string>
+    <string name="msg_error">:( Something went wrong&#8230;Please try later</string>
+    <string name="msg_wait">Please Wait</string>
+
+    <!--List Item Place Holders -->
+    <string name="restaurant_logo">restaurant logo</string>
+    <string name="name">Name</string>
+    <string name="type">Thai, Soup</string>
+    <string name="status">status</string>
+    <string name="activity_label_disover">Discover</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RootItemList">
+
+    <ImageView
+        android:id="@+id/logoUrl"
+        style="@style/ListItemLogo"
+        android:src="@drawable/placeholder_logo" />
+
+    <LinearLayout style="@style/ListItemDetailsWrapper">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/ListItemName"
+                tools:text="@string/name" />
+
+            <ImageView
+                android:id="@+id/favorite"
+                style="@style/favoriteImage" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/ListItemType"
+                tools:text="@string/type" />
+
+
+
+            <TextView
+                android:id="@+id/status"
+                style="@style/ListItemStatus"
+                tools:text="@string/status" />
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

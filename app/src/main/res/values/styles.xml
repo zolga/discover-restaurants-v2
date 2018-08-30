@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RootItemList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding</item>
+        <item name="android:paddingRight">@dimen/list_item_padding</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ListItemLogo">
+        <item name="android:layout_width">@dimen/list_item_img_size</item>
+        <item name="android:layout_height">@dimen/list_item_img_size</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:contentDescription">@string/restaurant_logo</item>
+    </style>
+
+    <style name="ListItemDetailsWrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_details_width</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/list_item_padding</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ListItemName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingRight">@dimen/list_item_details_padding_right</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/list_item_name_font_size</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="ListItemType">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginRight">@dimen/list_item_type_margin_right</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">@dimen/list_item_type_font_size</item>
+        <item name="android:textColor">@color/colorTextLightGray</item>
+    </style>
+
+    <style name="ListItemStatus">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/list_item_status_size</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_alignRight">@+id/description</item>
+        <item name="android:layout_alignBottom">@+id/description</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingLeft">@dimen/list_item_details_padding_left</item>
+        <item name="android:textColor">@color/colorTextLightGray</item>
+    </style>
+
+    <style name="DiscoverRoot">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="DiscoverList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="EmptyView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="favoriteImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:contentDescription">isFavorite</item>
+    </style>
+
+</resources>

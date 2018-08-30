@@ -1,0 +1,22 @@
+[
+  {
+    "id": 10000,
+    "status": "10 mins",
+    "tags": [
+      "Beer",
+      "Wine"
+    ],
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/alcohol-logo-generic.png",
+    "name": "name1"
+  },
+  {
+    "id": 20000,
+    "status": "20 mins",
+    "tags": [
+      "Alcohol",
+      "Beer"
+    ],
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/alcohol-logo-generic.png",
+    "name": "name2"
+  }
+]

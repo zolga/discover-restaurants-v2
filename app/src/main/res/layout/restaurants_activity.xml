@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a list of restaurants -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DiscoverRoot"
+    tools:context=".activity.RestaurantsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        style="@style/DiscoverList" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/EmptyView" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorRed</color>
+    <color name="colorPrimaryDark">@color/colorDarkRed</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ic_launcher_background">#ffffff</color>
+    <color name="colorTextLightGray">#9E9E9E</color>
+    <color name="colorDivider">#c9c7c7</color>
+    <color name="colorTextDarkGray">#717171</color>
+    <color name="colorText">#181818</color>
+    <color name="colorDarkRed">#cc2606</color>
+    <color name="colorRed">#ff3008</color>
+
+
+</resources>
